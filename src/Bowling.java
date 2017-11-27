@@ -20,10 +20,12 @@ public class Bowling {
 	public void testpeorpartida()
 	{
 	  Bowlinggame game = new Bowlinggame();
-	  for(int i=1; i<=10; i++)
+	  for(int frame=1; frame<=10; frame++)
 	  	{
 		  game.Rollframe(0,0);
 	  	}
 	  assertEquals(0, game.Puntaje());
 	}
+	
+	
 }
