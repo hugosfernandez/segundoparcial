@@ -7,19 +7,22 @@ import junit.framework.Assert;
 
 public class Bowling {
 
+	private Bowlinggame game;
+	
 	@Before
 	public void setUp() throws Exception {
+		game = new Bowlinggame();
 	}
 
 	@Test
 	public void testcrearjuego() {
-		Bowlinggame game = new Bowlinggame();
+		//Bowlinggame game = new Bowlinggame();
 	}
 
 	@Test
 	public void testpeorpartida()
 	{
-	  Bowlinggame game = new Bowlinggame();
+	  //Bowlinggame game = new Bowlinggame();
 	  for(int frame=1; frame<=10; frame++)
 	  	{
 		  game.Rollframe(0,0);
@@ -30,7 +33,7 @@ public class Bowling {
 	@Test
 	public void testmejorpartida()
 	{
-	  Bowlinggame game = new Bowlinggame();
+	  //Bowlinggame game = new Bowlinggame();
 	  for(int frame=1; frame<=10; frame++)
 	  	{
 		  game.Rollframe(10,0);
