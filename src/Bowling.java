@@ -11,7 +11,7 @@ public class Bowling {
 
 	@Test
 	public void testcrearjuego() {
-		Bowlinggame game = new Bowlinggame;
+		Bowlinggame game = new Bowlinggame();
 	}
 
 }
