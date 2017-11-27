@@ -27,5 +27,15 @@ public class Bowling {
 	  assertEquals(0, game.Puntaje());
 	}
 	
+	@Test
+	public void testmejorpartida()
+	{
+	  Bowlinggame game = new Bowlinggame();
+	  for(int frame=1; frame<=10; frame++)
+	  	{
+		  game.Rollframe(10,0);
+	  	}
+	  assertEquals(100, game.Puntaje());
+	}
 	
 }
