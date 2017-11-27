@@ -48,4 +48,20 @@ public class Bowling {
 		game.Rollframe(2,5);
 		assertEquals(7, game.Puntaje());
 	}
+	
+	@Test
+	public void teststrikeestra()
+	{
+	  //Bowlinggame game = new Bowlinggame();
+	  for(int frame=1; frame<=10; frame++)
+	  	{
+		  game.Rollframe(10,0);
+		  
+		  if (frame == 10  && game.Puntaje() == 50){
+			  game.Rollframe(10,10);  
+	  		}
+	  	}
+	  
+	  assertEquals(120, game.Puntaje());
+	}
 }
