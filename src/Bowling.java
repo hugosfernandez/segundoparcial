@@ -24,6 +24,6 @@ public class Bowling {
 	  	{
 		  game.Rollframe(0,0);
 	  	}
-	  assertEqual(0, game.Puntaje);
+	  assertEquals(0, game.Puntaje());
 	}
 }
