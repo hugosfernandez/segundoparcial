@@ -41,4 +41,11 @@ public class Bowling {
 	  assertEquals(100, game.Puntaje());
 	}
 	
+	@Test
+	public void testpuntajeframe()
+	{
+	  //Bowlinggame game = new Bowlinggame();
+		game.Rollframe(2,5);
+		assertEquals(9, game.Puntaje());
+	}
 }
