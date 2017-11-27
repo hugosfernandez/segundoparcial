@@ -57,7 +57,7 @@ public class Bowling {
 	  	{
 		  game.Rollframe(10,0);
 		  
-		  if (frame == 10  && game.Puntaje() == 50){
+		  if (frame == 10  && game.Puntaje() == 100){
 			  game.Rollframe(10,10);  
 	  		}
 	  	}
